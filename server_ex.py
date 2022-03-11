@@ -64,6 +64,7 @@ def minmax_page():
     code_html = "<tr><td>" + str(a.values[0]) + "</td><td>" + str(b.values[0]) + "</td></tr>"
     return render_template("getMinMax.html", content=Markup(code_html))
 
+#Test Push
 
 if __name__ == "__main__":
     app.run()
